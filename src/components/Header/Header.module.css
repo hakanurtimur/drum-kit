@@ -1,0 +1,36 @@
+.header {
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
+    background: rgba(26, 29, 42, 0.6);
+    border-radius: 0 0 1rem 1rem;
+    
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+    list-style: none;
+    
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.55s ease;
+}
+
+.list a:hover, .list a:active {
+    color: #d89fab;
+    border-color: #d89fab;
+    
+}
