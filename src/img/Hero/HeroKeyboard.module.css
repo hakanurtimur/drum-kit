@@ -1,0 +1,34 @@
+.bigButtons {
+
+    animation: bigButtonsAnimations 1.2s ease infinite;
+}
+
+
+
+
+@keyframes bigButtonsAnimations {
+    0% {
+        fill: #2E3559 ;
+    }
+    
+    50% {
+        fill: #B01235;
+    }
+    100% {
+        fill: #2E3559 ;
+    }
+    
+}
+@keyframes smallButtonsAnimations {
+    0% {
+        fill: #2E3559 ;
+    }
+    
+    50% {
+        fill: #2E3559;
+    }
+    100% {
+        fill: #2E3559 ;
+    }
+    
+}

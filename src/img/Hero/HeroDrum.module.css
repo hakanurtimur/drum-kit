@@ -1,0 +1,58 @@
+.LeftKnobAnimated {
+    animation: leftKnobAnimation 2.4s ease infinite ;
+  }
+.RightKnobAnimated {
+    animation: rightKnobAnimation 1.2s ease infinite ;
+    transform-origin: top right;
+  }
+
+.drumMain {
+    animation: drumAnimation 0.6s  infinite;
+}
+
+
+
+
+@keyframes leftKnobAnimation { 
+    
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+@keyframes rightKnobAnimation { 
+    
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+
+
+}
+@keyframes drumAnimation {
+    0% {
+        fill: #E8E8E8 ;
+    }
+    
+    50% {
+        fill: #d89fab;
+    }
+    100% {
+        fill: #E8E8E8 ;
+    }
+    
+}
+
+

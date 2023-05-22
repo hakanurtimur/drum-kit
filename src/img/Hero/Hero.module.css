@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(26, 29, 42, 0.6);
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 15%;
+    padding: 40px;
+    gap: 5rem;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.description  {
+    font-family: 'Josepin Sans';
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  
+}

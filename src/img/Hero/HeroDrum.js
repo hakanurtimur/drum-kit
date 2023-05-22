@@ -1,11 +1,15 @@
 import React from "react";
+import classes from "./HeroDrum.module.css";
 
-function HeroDrum() {
+function HeroDrum(props) {
+  const knobsColor = !props.isHover ? "#B01235" : "#B01235";
+
   return (
     <svg
+      style={{ overflow: "visible" }}
       xmlns="http://www.w3.org/2000/svg"
-      width="10"
-      height="10"
+      width="15rem"
+      height="15rem"
       fill="none"
       viewBox="0 0 800 800"
     >
@@ -30,15 +34,18 @@ function HeroDrum() {
         d="M400 270c171.25 0 313.75 41.25 345 95 5-7.5 7.5-16.25 7.5-23.75 0-65-151.25-118.75-352.5-118.75s-351.25 55-351.25 118.75c0 7.5 2.5 16.25 6.25 23.75 32.5-53.75 175-95 345-95z"
       ></path>
       <path
-        fill="#E8E8E8"
+        fill="#E8E8E8" // ddavul main
+        className={classes["drumMain"]}
         d="M400 455c175 0 312.5-37.5 345-88.75-31.25-55-173.75-95-345-95-170 0-312.5 41.25-345 95C86.25 417.5 223.75 455 400 455z"
       ></path>
       <path
-        fill="#2E3559"
+        fill={knobsColor}
+        className={classes.LeftKnobAnimated}
         d="M576.578 323.654c-7.5-3.75-15-6.25-21.25-6.25l-452.5-261.25c-6.25-2.5-23.75 26.25-17.5 30l458.75 252.5c2.5 5 8.75 11.25 15 15 43.75 25 61.25-5 17.5-30z"
       ></path>
       <path
-        fill="#2E3559"
+        fill={knobsColor}
+        className={classes.RightKnobAnimated}
         d="M697.092 58.154l-452.5 261.25c-6.25 0-13.75 1.25-21.25 6.25-43.75 25-26.25 55 17.5 30 7.5-3.75 12.5-10 15-15l458.75-252.5c6.25-3.75-11.25-32.5-17.5-30z"
       ></path>
       <path

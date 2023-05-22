@@ -1,8 +1,9 @@
 import React from "react";
+import MainContainer from "../components/MainContainer/MainContainer";
 
 function HomePage() {
 
-    return <h1>IM HERE</h1>
+    return <MainContainer></MainContainer>
 
 }
 
