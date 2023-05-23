@@ -12,7 +12,7 @@ function Header() {
             <Logo />
             <nav>
             <ul className={classes.list}>
-                <li><NavLink to='/'>Home Page</NavLink></li>
+                <li><NavLink to='/' style={{}}>Home Page</NavLink></li>
                 <li><NavLink to= '/drumming'>Drumming Page</NavLink></li>
             </ul>
             </nav>

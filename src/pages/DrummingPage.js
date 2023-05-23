@@ -1,9 +1,12 @@
-
+import DrumKit from "../components/DrumKit/DrumKit";
 
 function DrummingPage() {
-
-
-    return <h1>This is Drummer Kit!</h1>
+  return (
+    <>
+      
+      <DrumKit></DrumKit>
+    </>
+  );
 }
 
 export default DrummingPage;
