@@ -29,7 +29,7 @@
     transition: all 0.55s ease;
 }
 
-.list a:hover, .list a:active {
+.list a:hover, .list a.active {
     color: #d89fab;
     border-color: #d89fab;
     
