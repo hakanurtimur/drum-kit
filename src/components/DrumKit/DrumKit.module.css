@@ -41,9 +41,10 @@
   text-transform: capitalize;
   width: 10%;
   overflow: visible;
-  height: 30%;
+  height: 40%;
   transition: all 0.7 ease;
   border-radius: 10px;
+  padding: 3px;
 }
 .animated {
   transform: scale(1.1);
